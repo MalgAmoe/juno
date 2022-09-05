@@ -48,7 +48,7 @@ command:
 $ ./build/juno
 
 # For Ethereum Mainnet
-$ ./build/juno --netowrk 1
+$ ./build/juno --network 1
 ```
 
 To sync the state without relying on the feeder gateway, configure an Ethereum node and run the following command:
@@ -58,7 +58,7 @@ To sync the state without relying on the feeder gateway, configure an Ethereum n
 $ ./build/juno --eth-node "<node-endpoint>"
 
 # For Ethereum Mainnet
-$ ./build/juno --netowrk 1 --eth-node "<node-endpoint>"
+$ ./build/juno --network 1 --eth-node "<node-endpoint>"
 ```
 To view other available options please run `./build/juno -h`.
 
